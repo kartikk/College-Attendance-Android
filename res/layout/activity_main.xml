@@ -1,0 +1,631 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="385dp"
+        android:layout_above="@+id/button1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="1752dp"
+                android:orientation="vertical" >
+
+                <CheckBox
+                    android:id="@+id/checkBox1"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  01"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox2"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  02"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox3"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  03"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox4"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  04"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox5"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  05"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox6"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  06"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox7"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  07"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox8"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  08"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox9"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  09"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox10"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  10"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox11"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  11"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox12"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  12"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox13"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  13"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox14"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  14"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox15"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  15"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox16"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  16"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox17"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  17"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox18"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  18"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox19"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  19"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox20"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  20"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox21"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  21"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox22"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  22"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox23"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  23"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox24"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  24"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox25"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  25"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox26"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  26"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox27"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  27"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox28"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  28"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox29"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  29"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox30"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  30"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox31"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  31"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox32"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  32"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox33"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  33"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox34"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  34"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox35"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  35"
+                    android:textColor="#fff3f3f3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1752dp"
+                android:orientation="vertical" >
+
+                <CheckBox
+                    android:id="@+id/checkBox36"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  36"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox37"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  37"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox38"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  38"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox39"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  39"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox40"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  40"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox41"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  41"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox42"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  42"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox43"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  43"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox44"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  44"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox45"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  45"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox46"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  46"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox47"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  47"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox48"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  48"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox49"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  49"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox50"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  50"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox51"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  51"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox52"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  52"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox53"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  53"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox54"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  54"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox55"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  55"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox56"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  56"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox57"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  57"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox58"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  58"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox59"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  59"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox60"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  60"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox61"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  61"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox62"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  62"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  63"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox64"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  64"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox65"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  65"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox66"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  66"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox67"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  67"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox68"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  68"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox69"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  69"
+                    android:textColor="#fff3f3f3" />
+
+                <CheckBox
+                    android:id="@+id/checkBox70"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:button="@drawable/btn_check_holo_dark"
+                    android:text="  70"
+                    android:textColor="#fff3f3f3" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/scrollView1"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_default_holo_dark"
+        android:text="Clear All"
+        android:textColor="#fff3f3f3"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_alignRight="@+id/scrollView1"
+        android:layout_alignTop="@+id/button1"
+        android:background="@drawable/btn_default_holo_dark"
+        android:text="Next"
+        android:textColor="#fff3f3f3"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Roll Number"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff3f3f3" />
+
+</RelativeLayout>
